@@ -2,14 +2,17 @@ import numpy as np
 from numpy import random
 import math
 from matplotlib import pyplot as plt
-from scipy import misc
 import scipy.linalg
 
-def random_svd_rank_k(matrix, k):
-    omega = random.randn(matrix.shape[1],k)
-    Y = matrix @ omega
-    q, r = np.linalg.qr(Y)
-    return q @ q.T @ matrix
+def random_svd_rank_k(A, k, power=1):
+    omega = random.randn(A.shape[1],k)
+    Y = np.linalg.matrix_power(A @ A.T, power) @ (A @ omega)
+    Q, R = np.linalg.qr(Y)
+    B = Q.T @ A
+    U_tilde, Sigma, Vh = np.linalg.svd(B)
+    U = Q @ U_tilde
+    Sigma = np.diag(Sigma)
+    return U @ Sigma @ Vh[:k]
 
 def svd_rank_k(matrix, k):
     u, sigma, vh = np.linalg.svd(matrix) #compute full svd
@@ -23,7 +26,8 @@ def id_rank_k(matrix, k):
     q = q[:,:k]
     return q @ q.T @ matrix
 
-def random_id_rank_k(matrix, k, p):
+def random_id_rank_k(matrix, k, oversampling=10):
+    p = k + oversampling
     if(p<=k or p>matrix.shape[1]):
         print('Invalid p')
         return False
