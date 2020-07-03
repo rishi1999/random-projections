@@ -33,7 +33,7 @@ def random_id_rank_k(matrix, k, oversampling=10):
         return False
     cols = np.random.choice(matrix.shape[1], replace = False, size = p)
     AS = matrix[:,cols]
-    q,r = np.linalg.qr(AS)
+    q,r,p = scipy.linalg.qr(AS,pivoting=True)
     q = q[:,:k]
     return q @ q.T @ matrix
 
