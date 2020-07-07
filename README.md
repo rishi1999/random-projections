@@ -7,7 +7,7 @@ A link to an Overleaf document with a thorough explanation of the mathematical b
 The `notebooks` folder contains all of our coding experiments.
 
 ### Eigenfaces
-We use a database of real pictures of faces to extract the components of an average that can be added up to reconstruct approximations to any specific face.
+We use a database of real pictures of faces to extract the components of an average face, which can be added up to reconstruct approximations to any specific face.
 
 ### Image Compression
 We use randomization to find low-rank approximations to image, making it easier to use these images for data analysis and computation.
