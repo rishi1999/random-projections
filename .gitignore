@@ -130,3 +130,6 @@ dmypy.json
 
 # Datasets
 datasets/
+
+# Misc.
+Practice.ipynb
