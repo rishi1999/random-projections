@@ -9,8 +9,22 @@ The `notebooks` folder contains all of our coding experiments.
 ### Eigenfaces
 We use a database of real pictures of faces to extract the components of an average face, which can be added up to reconstruct approximations to any specific face.
 
+##### Eigenfaces calculated deterministically
+![Deterministic Eigenfaces](examples/deterministic_eigenfaces.png)
+
+##### Randomized approximation of the eigenfaces
+![Randomized_Eigenfaces](examples/randomized_eigenfaces.png)
+
+##### Reconstruction of a face using eigenfaces
+![Eigenface Reconstruction](examples/eigenface_reconstruction.png)
+
 ### Image Compression
 We use randomization to find low-rank approximations to image, making it easier to use these images for data analysis and computation.
+
+##### Example of image compression
+![Eigenface Reconstruction](examples/image_compression.png)
+
+The left-most image is the original image, and the rest are various forms of approximations.
 
 ### JL Lemma
 We numerically verify some of the claims made in the [Johnson-Lindenstrauss Lemma](https://en.wikipedia.org/wiki/Johnson%E2%80%93Lindenstrauss_lemma).
@@ -27,3 +41,6 @@ Participants: Rishi Advani, Maddy Crim, Sean O'Hagan
 TAs: Justin Baker, Liu Yang
 
 Organizers: Akil Narayan (primary), Yanlai Chen (secondary)
+
+## References
+A full list of references will be provided in the Overleaf document.
