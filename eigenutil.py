@@ -112,14 +112,14 @@ k = 500
 
 
 det_basis = svd_rank_k(k)
-print(det_basis.shape)
+#print(det_basis.shape)
 
 
 # In[10]:
 
 
 rand_basis = rsvd_rank_k(k)
-print(rand_basis.shape)
+#print(rand_basis.shape)
 
 
 # In[11]:
