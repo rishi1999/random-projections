@@ -27,7 +27,7 @@ n = 1000
 
 data = np.empty((m, n)) # images are 250x250x3
 
-for i,filename in enumerate(glob.iglob('datasets/lfw/**/*.jpg', recursive = True)):
+for i,filename in enumerate(glob.iglob('../datasets/lfw/**/*.jpg', recursive = True)):
     if i >= n:
         break
     im=Image.open(filename)
