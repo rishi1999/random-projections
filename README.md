@@ -35,6 +35,16 @@ We compute approximate 'least-square' solutions to linear systems that do not ha
 ## Presentations
 The `presentations` folder contains all our files for the biweekly group presentations at ICERM. These mostly consist of Jupyter notebooks with extensive descriptions and explanations of the code / phenomena.
 
+## Installation
+To reproduce our results by running the experiments provided in this repository, you will need to have access to all the Python packages imported in the various files. We recommend using Anaconda/conda to set up a virtual environoment and install all packages so as to not interfere with any other projects in your file system.
+
+You will also need to download the datasets used for our experiments (LFW, MNIST). A full list can be found in the linked Overleaf document. The datasets should be organized as follows in the directory structure:
+
+- random-projections/datasets/lfw
+- random-projections/datasets/mnist
+
+etc.
+
 ## Authors
 Participants: Rishi Advani, Maddy Crim, Sean O'Hagan
 
