@@ -10,19 +10,19 @@ The `notebooks` folder contains all of our coding experiments.
 We use a database of real pictures of faces to extract the components of an average face, which can be added up to reconstruct approximations to any specific face.
 
 ##### Eigenfaces calculated deterministically
-![Deterministic Eigenfaces](examples/deterministic_eigenfaces.png)
+![Deterministic Eigenfaces](examples/eigenfaces/deterministic_eigenfaces.png)
 
 ##### Randomized approximation of the eigenfaces
-![Randomized_Eigenfaces](examples/randomized_eigenfaces.png)
+![Randomized_Eigenfaces](examples/eigenfaces/randomized_eigenfaces.png)
 
 ##### Reconstruction of a face using eigenfaces
-![Eigenface Reconstruction](examples/eigenface_reconstruction.png)
+![Eigenface Reconstruction](examples/eigenfaces/eigenface_reconstruction.png)
 
 ### Image Compression
 We use randomization to find low-rank approximations to image, making it easier to use these images for data analysis and computation.
 
 ##### Example of image compression
-![Eigenface Reconstruction](examples/image_compression.png)
+![Eigenface Reconstruction](examples/image_compression/image_compression.png)
 
 The left-most image is the original image, and the rest are various forms of approximations.
 
@@ -34,6 +34,13 @@ We compute approximate 'least-square' solutions to linear systems that do not ha
 
 ## Presentations
 The `presentations` folder contains all our files for the biweekly group presentations at ICERM. These mostly consist of Jupyter notebooks with extensive descriptions and explanations of the code / phenomena.
+
+## Installation
+To reproduce our results by running the experiments provided in this repository, you will need to have access to all the Python packages imported in the various files. We recommend using Anaconda/conda to set up a virtual environoment and install all packages so as to not interfere with any other projects in your file system.
+
+You will also need to download the datasets used for our experiments (LFW, MNIST). A full list can be found in the linked Overleaf document. A dataset named `dataset1` should be stored in the following directory:
+
+    random-projections/datasets/dataset1
 
 ## Authors
 Participants: Rishi Advani, Maddy Crim, Sean O'Hagan
