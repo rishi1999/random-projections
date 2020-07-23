@@ -4,36 +4,40 @@ import math
 from matplotlib import pyplot as plt
 import scipy.linalg
 
-def random_svd_rank_k(A, k, power=1):
+def random_svd_rank_k(A, k, power=1, full_m = True):
     omega = random.randn(A.shape[1],k)
-    Y = np.linalg.matrix_power(A @ A.T, power) @ (A @ omega)
+    if power != 0:
+        Y = np.linalg.matrix_power(A @ A.T, power) @ (A @ omega)
+    else:
+        Y = A @ omega
+    #Y = np.linalg.matrix_power(A @ A.T, power) @ (A @ omega)
     Q, R = np.linalg.qr(Y)
     B = Q.T @ A
-    U_tilde, Sigma, Vh = np.linalg.svd(B)
+    U_tilde, Sigma, Vh = np.linalg.svd(B, full_matrices = full_m)
     U = Q @ U_tilde
     Sigma = np.diag(Sigma)
     return U @ Sigma @ Vh[:k]
 
-def svd_rank_k(matrix, k):
-    u, sigma, vh = np.linalg.svd(matrix) #compute full svd
+def svd_rank_k(matrix, k,full_m = True ):
+    u, sigma, vh = np.linalg.svd(matrix, full_matrices = full_m) #compute full svd
     u = u[:,:k] #keep all rows, take first k columns
     sigma = np.diag(sigma[:k]) #take first k singular values and make diagonal matrix
     vh = vh[:k] #take first k rows, take all columns
     return u @ sigma @ vh #return rank k approximation
 
-def id_rank_k(matrix, k):
-    q, r, p = scipy.linalg.qr(matrix, pivoting=True)
+def id_rank_k(matrix, k, full_m = 'full'):
+    q, r, p = scipy.linalg.qr(matrix, pivoting=True, mode = full_m)
     q = q[:,:k]
     return q @ q.T @ matrix
 
-def random_id_rank_k(matrix, k, oversampling=10):
+def random_id_rank_k(matrix, k, oversampling=10, full_m = 'full'):
     p = k + oversampling
     if(p<=k or p>matrix.shape[1]):
         print('Invalid p')
         return False
     cols = np.random.choice(matrix.shape[1], replace = False, size = p)
     AS = matrix[:,cols]
-    q,r,p = scipy.linalg.qr(AS,pivoting=True)
+    q,r,p = scipy.linalg.qr(AS,pivoting=True, mode = full_m)
     q = q[:,:k]
     return q @ q.T @ matrix
 
