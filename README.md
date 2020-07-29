@@ -10,13 +10,13 @@ The `notebooks` folder contains all of our coding experiments.
 We use a database of real pictures of faces to extract the components of an average face, which can be added up to reconstruct approximations to any specific face.
 
 ##### Eigenfaces calculated deterministically
-![Deterministic Eigenfaces](examples/eigenfaces/deterministic_eigenfaces.png)
+![Deterministic Eigenfaces](presentations/images/2020-07-10/det_eigenfaces_grid.png)
 
 ##### Randomized approximation of the eigenfaces
-![Randomized_Eigenfaces](examples/eigenfaces/randomized_eigenfaces.png)
+![Randomized_Eigenfaces](presentations/images/2020-07-10/rand_eigenfaces_grid.png)
 
 ##### Reconstruction of a face using eigenfaces
-![Eigenface Reconstruction](examples/eigenfaces/eigenface_reconstruction.png)
+![Eigenface Reconstruction](presentations/images/2020-07-10/reconstructed_image_grid.png)
 
 ### Image Compression
 We use randomization to find low-rank approximations to image, making it easier to use these images for data analysis and computation.
