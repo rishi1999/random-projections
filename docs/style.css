@@ -1,8 +1,24 @@
+/* color scheme generated using Coolors */
+:root{
+--charleston-green: hsla(195, 56%, 10%, 1);
+--teal-blue: hsla(195, 37%, 40%, 1);
+--green-sheen: hsla(172, 25%, 55%, 1);
+--ash-gray: hsla(90, 17%, 81%, 1);
+--beige: hsla(52, 67%, 89%, 1);
+}
+
 body {
-	background-color: lightblue;
+	background-color: var(--beige);
 }
 
 h1 {
-	color: navy;
-	margin-left: 20px;
+	color: var(--teal-blue);
+}
+
+h2 {
+	color: var(--green-sheen);
+}
+
+p {
+	color: var(--ash-gray);
 }
