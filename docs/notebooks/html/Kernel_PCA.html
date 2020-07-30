@@ -13105,7 +13105,7 @@ $$D = \frac{1}{n}X_0^T X_0$$
 is the covariance matrix of the data $X$. Note $D$ is a symmetric, $n\times n$, positive semi-definite matrix.</p>
 <p>Saving the details, it turns out that the eigendecomposition $D = Q\Lambda Q^T$ solves our problem: the columns of $Q$ form an orthonormal basis for the span of the data, and they are ordered in terms of how much variability of the data they capture, with the order determined by the corresponding eigenvalues in $\Lambda$ (the spectral theorem guarantees that the eigenvalues will be real and nonnegative).</p>
 <p>Here's an example illustrating what the principle components will be for a 2 dimensional set of data points:</p>
-<p><img src="../../../examples/kpca/pc.gif" alt="Example"></p>
+<p><img src="../../examples/kpca/pc.gif" alt="Example"></p>
 <p>The red and green arrows represent the principle components, or eigenvectors found in $Q$. Note that they are orthogonal. While this two dimensional example is simplistic, it provides intuition for the case of higher dimensional data.</p>
 <h2 id="Kernel-PCA">Kernel PCA<a class="anchor-link" href="#Kernel-PCA">&#182;</a></h2><p>Not every dataset is linearly separable. For this reason, we introduce kernel methods. Kernel methods are class of methods used not only in PCA, but in other algorithms as well (SVM, coming later).</p>
 <p>In order to solve the problem of lack of linear separability, we map the data into a higher dimensional space using a <em>kernel</em>, which is a type of function that satisfies certain properties. Examples of kernel functions include:</p>
