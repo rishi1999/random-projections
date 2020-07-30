@@ -1,5 +1,4 @@
-# Random Projections and Dimension Reduction
-## Summer@ICERM 2020
+### Summer@ICERM 2020
 
 Please click on a link below to learn more about our experiments:
 - [HTML](./notebooks/html/Eigenfaces.html)
