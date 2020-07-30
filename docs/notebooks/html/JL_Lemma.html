@@ -13094,7 +13094,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Johnson-Lindenstrauss-Lemma">Johnson-Lindenstrauss Lemma<a class="anchor-link" href="#Johnson-Lindenstrauss-Lemma">&#182;</a></h1><p>The Johnson-Lindenstrauss Lemma describes the existence of a map from a higher dimensional space $\mathbb{R}^d$ into a lower dimensional space $\mathbb{R}^k$ that preserves pairwise distances between the $n$ points up to an error tolerance $0&lt;\varepsilon&lt;1$, with $k$ on the order of $\varepsilon^{-2}\log n$.</p>
-<p>In applications with which we are concerned, the data (collection of points) can be viewed as a matrix $A\in \mathcal{M}_{m\times n}(\mathbb{R})$, with each row representing a point in $\mathbb{R}^n$, and the map in question may be taken to be a projection $P\in \mathcal{M}_{n\times k}(\mathbb{R})$.</p>
+<p>In applications with which we are concerned, the data (collection of points) can be viewed as a matrix $A\in \mathbb{R}^{m\times n}$, with each row representing a point in $\mathbb{R}^n$, and the map in question may be taken to be a projection $P\in \mathbb{R}^{n\times k}$.</p>
 <h4 id="Lemma-(Johnson-Lindenstrauss)">Lemma (Johnson-Lindenstrauss)<a class="anchor-link" href="#Lemma-(Johnson-Lindenstrauss)">&#182;</a></h4><p>Let $\{x_1,...,x_n\}$ be a collection of data points in $\mathbb{R}^d$. Let $k\in\mathbb{N}$ such that 
 $$
 k &gt; C\cdot \log n \quad\quad \left(C= \frac{24}{3\varepsilon^2 - 2\varepsilon^3}\right)\,.
