@@ -13097,11 +13097,11 @@ div#notebook {
 <p>In applications with which we are concerned, the data (collection of points) can be viewed as a matrix $A\in \mathcal{M}_{m\times n}(\mathbb{R})$, with each row representing a point in $\mathbb{R}^n$, and the map in question may be taken to be a projection $P\in \mathcal{M}_{n\times k}(\mathbb{R})$.</p>
 <h4 id="Lemma-(Johnson-Lindenstrauss)">Lemma (Johnson-Lindenstrauss)<a class="anchor-link" href="#Lemma-(Johnson-Lindenstrauss)">&#182;</a></h4><p>Let $\{x_1,...,x_n\}$ be a collection of data points in $\mathbb{R}^d$. Let $k\in\mathbb{N}$ such that 
 $$
-k &gt; C\cdot \log n \quad\quad \left(C= \frac{24}{3\varepsilon^2 - 2\varepsilon^3}\right)
+k &gt; C\cdot \log n \quad\quad \left(C= \frac{24}{3\varepsilon^2 - 2\varepsilon^3}\right)\,.
 $$
 Then there exists a linear map $f$ (projection) such that for any $x_i,x_j\in X$,
 $$
-(1-\varepsilon)\,\|x_i-x_j\|_2^2 \leq \|f(x_i)-f(x_j)\|_2^2 \leq (1+\varepsilon)\,\|x_i-x_j\|_2^2
+(1-\varepsilon)\,\|x_i-x_j\|_2^2 \leq \|f(x_i)-f(x_j)\|_2^2 \leq (1+\varepsilon)\,\|x_i-x_j\|_2^2\,.
 $$</p>
 
 </div>
@@ -13113,7 +13113,7 @@ $$</p>
 <p>We will not provide the full proof here, but part of a proof involves the following lemma:</p>
 <p>Let $u\in \mathbb{R}^d$ be fixed, and let $R$ be a random matrix with $R_{ij} \sim N(0,1)$. Define $v=\frac{1}{\sqrt{k}}Ru$, such that $v\in\mathbb{R}^k$. Then
 $$
-\mathbb{E} \,[\|v\|_2^2] = \|u\|_2^2
+\mathbb{E} \,[\|v\|_2^2] = \|u\|_2^2\,.
 $$</p>
 <p>Another key observation is the idea that the results will concentrate about the mean, or in practice that the standard deviation from this mean will be reasonable</p>
 <p>We provide intuition through an example:</p>
