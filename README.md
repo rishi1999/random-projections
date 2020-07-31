@@ -49,11 +49,9 @@ You will also need to download the datasets used for our experiments (LFW, MNIST
     random-projections/datasets/dataset1
 
 ## Authors
-Participants: Rishi Advani, Maddy Crim, Sean O'Hagan
-
-TAs: Justin Baker, Liu Yang
-
-Organizers: Akil Narayan (primary), Yanlai Chen (secondary)
+- Rishi Advani
+- Madison Crim
+- Sean O'Hagan
 
 ## References
 A full list of references will be provided in the Overleaf document.
