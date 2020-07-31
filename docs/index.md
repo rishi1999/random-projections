@@ -31,7 +31,7 @@ As before, with large data matrices, computing the kernel matrix can be expensiv
 
 
 ### Notebooks
-- [JL Lemma](./notebooks/html/JL_Lemma.html)
+- [Johnson-Lindenstrauss Lemma](./notebooks/html/JL_Lemma.html)
 - [Image Compression](./notebooks/html/Image_Compression.html)
 - [Eigenfaces](./notebooks/html/Eigenfaces.html)
 - [Least Squares](./notebooks/html/Least_Squares.html)
