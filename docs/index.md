@@ -1,7 +1,7 @@
 ## Summer@ICERM 2020
 ### Rishi Advani, Maddy Crim, and Sean O'Hagan
 
-Hi! We're the random-projections group, and this is our final deliverable for the Summer@ICERM 2020 REU program. Feel free to take a look at the GitHub repository as well for more content.
+Hi! We're the random-projections group, and this is our final deliverable for the Summer@ICERM 2020 REU program. Feel free to take a look at our [GitHub repository](https://github.com/rishi1999/random-projections) as well for more content.
 
 <img src="./examples/home/icermmc.gif" alt="ICERM logo" width="200" height="200"/>
 
