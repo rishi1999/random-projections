@@ -1,6 +1,11 @@
 ## Summer@ICERM 2020
 ### Rishi Advani, Maddy Crim, and Sean O'Hagan
 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
 Hi! We're the random-projections group, and this is our final deliverable for the Summer@ICERM 2020 REU program. Feel free to take a look at our [GitHub repository](https://github.com/rishi1999/random-projections) as well for more content.
 
 <img src="./examples/home/icermmc.gif" alt="ICERM logo" width="200" height="200"/>
