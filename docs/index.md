@@ -40,4 +40,4 @@ To access the slides from our final presentation, click [here](./slides.pdf).
 
 Thank you to our organizers, Akil Narayan and Yanlai Chen, along with our TAs, Justin Baker and Liu Yang, for supporting us throughout this program.
 
-ICERM logo GIF was generated with the use of https://github.com/ColCarroll/imcmc.
+ICERM logo GIF was generated with the use of [imcmc](https://github.com/ColCarroll/imcmc).
