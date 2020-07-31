@@ -32,6 +32,12 @@ We numerically verify some of the claims made in the [Johnson-Lindenstrauss Lemm
 ### Least Squares
 We compute approximate 'least-square' solutions to linear systems that do not have an exact solution, and then compare the accuracy to that of the best of a randomly sampled set of vectors.
 
+### Kernel PCA
+Certain datasets are not always linearally seperable. To solve this problem we use randomized kernel methods to map data into a higher-dimensional space where PCA is then performed. 
+
+### Kernel SVM
+If we want to train a model on a set of labeled data, one option is to use a Support Vector Machine (SVM). Using a randomized kernel function, we experiment with SVM on the MNIST dataset.
+
 ## Presentations
 The `presentations` folder contains all our files for the biweekly group presentations at ICERM. These mostly consist of Jupyter notebooks with extensive descriptions and explanations of the code / phenomena.
 
@@ -51,3 +57,6 @@ Organizers: Akil Narayan (primary), Yanlai Chen (secondary)
 
 ## References
 A full list of references will be provided in the Overleaf document.
+
+## Acknowledgements
+Thank you to our organizers Akil Narayan and Yanlai Chen, along with TAs Justin Baker and Liu Yang for supporting us throughout this program.

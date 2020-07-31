@@ -15,4 +15,4 @@ Please click on a link below to learn about one of our experiments:
 
 To understand the theory behind the experiments with more mathematical rigor, click [here](link) to view our final report.
 
-Thank you to our organizers Akil Narayan and Yanlai Chen, along with TAs Justin Baker and Liu Yang for supporting us through this program.
+Thank you to our organizers Akil Narayan and Yanlai Chen, along with TAs Justin Baker and Liu Yang for supporting us throughout this program.
