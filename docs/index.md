@@ -39,3 +39,5 @@ To access the slides from our final presentation, click [here](./slides.pdf).
 #### Acknowledgments
 
 Thank you to our organizers, Akil Narayan and Yanlai Chen, along with our TAs, Justin Baker and Liu Yang, for supporting us throughout this program.
+
+ICERM logo gif was generated with the use of https://github.com/ColCarroll/imcmc
