@@ -1,7 +1,7 @@
 # Random Projections
 This repository is a collection of our group's work during the Summer@ICERM 2020 REU program.
 
-A link to an Overleaf document with a thorough explanation of the mathematical background and results can be found [here](https://www.overleaf.com/read/ffnmgtrbbkhz).
+A link to an Overleaf document with a thorough explanation of the mathematical background and results can be found [here](./docs/final_report.pdf).
 
 ## Experiments (non-exhaustive)
 The `notebooks` folder contains all of our coding experiments.
@@ -49,14 +49,12 @@ You will also need to download the datasets used for our experiments (LFW, MNIST
     random-projections/datasets/dataset1
 
 ## Authors
-Participants: Rishi Advani, Maddy Crim, Sean O'Hagan
-
-TAs: Justin Baker, Liu Yang
-
-Organizers: Akil Narayan (primary), Yanlai Chen (secondary)
+- Rishi Advani
+- Madison Crim
+- Sean O'Hagan
 
 ## References
 A full list of references will be provided in the Overleaf document.
 
 ## Acknowledgements
-Thank you to our organizers Akil Narayan and Yanlai Chen, along with TAs Justin Baker and Liu Yang for supporting us throughout this program.
+Thank you to our organizers, Akil Narayan and Yanlai Chen, along with our TAs, Justin Baker and Liu Yang, for supporting us throughout this program.
