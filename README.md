@@ -37,20 +37,26 @@ We numerically verify some of the claims made in the [Johnson-Lindenstrauss Lemm
 We compute approximate 'least-square' solutions to linear systems that do not have an exact solution, and then compare the accuracy to that of the best of a randomly sampled set of vectors.
 
 ### Kernel PCA
-Certain datasets are not always linearally seperable. To solve this problem we use randomized kernel methods to map data into a higher-dimensional space where PCA is then performed. 
+Certain datasets are not linearly seperable. To solve this problem, we use randomized kernel methods to map data into a higher-dimensional space where PCA is then performed. 
 
 ### Kernel SVM
-If we want to train a model on a set of labeled data, one option is to use a Support Vector Machine (SVM). Using a randomized kernel function, we experiment with SVM on the MNIST dataset.
+If we want to train a nonlinear classifier on a set of labeled data, one option is to use a Support Vector Machine (SVM). Using a randomized kernel function, we experiment with SVM on the MNIST dataset.
 
 ## Presentations
 The `presentations` folder contains all our files for the biweekly group presentations at ICERM. These mostly consist of Jupyter notebooks with extensive descriptions and explanations of the code / phenomena.
 
 ## Installation
-To reproduce our results by running the experiments provided in this repository, you will need to have access to all the Python packages imported in the various files. We recommend using Anaconda/conda to set up a virtual environoment and install all packages so as to not interfere with any other projects in your file system.
+Clone the repository, and install all packages required.
+
+We recommend using Anaconda/conda to set up a virtual environment so as to not interfere with any other projects in your file system. You can run this command to create the environment and install all required packages:
+
+	conda create -n icerm --file package-list.txt
 
 You will also need to download the datasets used for our experiments (e.g., LFW, MNIST). A dataset named `dataset1` should be stored in the following directory:
 
     random-projections/datasets/dataset1
+
+You can reproduce our results by running the Jupyter notebooks provided.
 
 ## Authors
 - Rishi Advani
