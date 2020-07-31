@@ -10,8 +10,9 @@ In the following experiements we use randomness to compute low-rank matrix appro
 
 #### Random Projections
 When we have datasets that are too large, traditional methods of calculating low-rank matrix approximations are ineffective. This can be due to factors such as:
-     - having missing or inaccurate data
-     - storing all the data simultaneously in memory may not be possible 
+- having missing or inaccurate data
+- storing all the data simultaneously in memory may not be possible
+
 One solution to these problems is the use of random projections. Instead of directly computing the matrix factorization, we randomly project the matrix onto a lower-dimensional subspace and then compute the factorization. Often, we are able to do this without significant loss of accuracy. With these randomized algorithms, analyzing massive data sets becomes tractable.
 
 #### Kernel Methods
