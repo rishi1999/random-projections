@@ -48,7 +48,7 @@ The `presentations` folder contains all our files for the biweekly group present
 ## Installation
 To reproduce our results by running the experiments provided in this repository, you will need to have access to all the Python packages imported in the various files. We recommend using Anaconda/conda to set up a virtual environoment and install all packages so as to not interfere with any other projects in your file system.
 
-You will also need to download the datasets used for our experiments (LFW, MNIST). A full list can be found in the linked Overleaf document. A dataset named `dataset1` should be stored in the following directory:
+You will also need to download the datasets used for our experiments (e.g., LFW, MNIST). A dataset named `dataset1` should be stored in the following directory:
 
     random-projections/datasets/dataset1
 
@@ -58,7 +58,7 @@ You will also need to download the datasets used for our experiments (LFW, MNIST
 - Sean O'Hagan
 
 ## References
-A full list of references will be provided in the Overleaf document.
+A full list of references is provided in the final report linked above.
 
 ## Acknowledgements
 Thank you to our organizers, Akil Narayan and Yanlai Chen, along with our TAs, Justin Baker and Liu Yang, for supporting us throughout this program.
