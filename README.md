@@ -1,6 +1,8 @@
 # Random Projections
 This repository is a collection of our group's work during the Summer@ICERM 2020 REU program.
 
+A link to our GitHub Pages site can be found [here](https://rishi1999.github.io/random-projections/).
+
 A link to an Overleaf document with a thorough explanation of the mathematical background and results can be found [here](./docs/final_report.pdf).
 
 ## Experiments (non-exhaustive)
