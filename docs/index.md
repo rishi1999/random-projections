@@ -1,5 +1,5 @@
 ## Summer@ICERM 2020
-### Rishi Advani, Maddy Crim, and Sean O'Hagan
+### Rishi Advani, Madison Crim, and Sean O'Hagan
 
 
 <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico/?">
