@@ -1,3 +1,23 @@
+# Random Projections is a collection of work done by the authors during the Summer@ICERM 2020 REU program.
+# Copyright (C) 2020  Rishi Advani, Madison Crim, Sean O'Hagan
+
+# This file is part of Random Projections.
+
+# Random Projections is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# Random Projections is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with Random Projections.  If not, see <https://www.gnu.org/licenses/>.
+
+
+
 import numpy as np
 from numpy import random
 from matplotlib import pyplot as plt
