@@ -7,6 +7,9 @@ This repository is a collection of our group's work during the Summer@ICERM 2020
 
 - To access the slides from our final presentation, click [here](./docs/slides.pdf).
 
+### Update!
+The code from a continuation of this work can be found in `notebooks/ID_Test.ipynb`. The associated paper can be found [on arXiv](https://arxiv.org/abs/2105.07076).
+
 ## Experiments (non-exhaustive)
 The `notebooks` folder contains all of our coding experiments.
 
